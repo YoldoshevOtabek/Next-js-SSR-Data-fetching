@@ -7,7 +7,7 @@ const Blog = () => {
     return(
         <div className="home-container">
             <h1>Blog haqida</h1>
-            <button onClick={() => router.push('/blog/oneblog')}>Blogning bir turiga o'tish</button>
+            <button onClick={() => router.push('/blog/oneblog')}>Blogning bir turiga otish</button>
         </div>
     )
 }

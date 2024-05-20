@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import axios from "axios";
 import { useState,useEffect } from "react";
 import Link from "next/link";
@@ -25,7 +25,7 @@ const Home = () => {
     return(
         <>
         {
-            isLoading ? 'Loading...' : posts.map((a) => (
+            isLoading ? "Loading..." : posts.map((a) => (
                 <div key={a.id}>
                     <Link href={`./posts/${a.id}`}>{a.title} </Link>
                 </div>
